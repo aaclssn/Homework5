@@ -219,9 +219,6 @@ header{
 
 /*Your code here again.*/ 
 @media screen and (prefers-reduced-motion: reduce){
-  html{
-      scroll-behavior: auto; /* Removes scroll animation */
-  }
 
   #logo {
     -animation-name: none;
@@ -229,10 +226,6 @@ header{
  animation-duration: 0s;      /* sets to default setting */
    }
 
-  /*Turn off parallax*/
-  header{
-    background-attachment: initial;
-  }
-}
+ 
 
 /*Add media query to handle reduced-motion*/
