@@ -212,20 +212,30 @@ header{
 @media print { 
   .card {
     flex-basis: 200px;
+    align-items: flex-start;
   }
   /*Your code here again.*/
+  body {
+  background-image: none;
+  }
+
+  
+
+
+
   /*You will want four selectors*/  
 }
 
 /*Your code here again.*/ 
 @media screen and (prefers-reduced-motion: reduce){
 
-  #logo {
-    -animation-name: none;
- -webkit-animation-name: none;
- animation-duration: 0s;      /* sets to default setting */
+  #logo{
+    -webkit-transition: none; /* sets to default setting */
+    transition: none;        /* sets to default setting */
    }
 
- 
+  
+  }
+}
 
 /*Add media query to handle reduced-motion*/
