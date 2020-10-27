@@ -229,11 +229,11 @@ header{
 }
 
 /*Your code here again.*/ 
-@media (prefers-reduced-motion){
+@media (prefers-reduced-motion:reduce){
 
   #logo{
-    -webkit-transition: none; /* sets to default setting */
-    transition: none;        /* sets to default setting */
+    -webkit-transition: none;
+    transition: none;        
     animation-duration: 0s;
    }
 
