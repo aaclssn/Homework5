@@ -216,10 +216,12 @@ header{
   }
   /*Your code here again.*/
   body {
-  background-image: none;
+  img: none;
   }
 
-  
+  .gallery, #gallery {
+   display:none;
+  }
 
 
 
