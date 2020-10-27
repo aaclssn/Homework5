@@ -234,6 +234,7 @@ header{
   #logo{
     -webkit-transition: none; /* sets to default setting */
     transition: none;        /* sets to default setting */
+    animation-duration: 0s;
    }
 
   
